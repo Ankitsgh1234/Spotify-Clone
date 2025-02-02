@@ -9,6 +9,9 @@
 .justify-center{
     justify-content: center;
 }
+.gap{
+    gap: 5px;
+}
 .item-center{
     align-items: center;
 }
