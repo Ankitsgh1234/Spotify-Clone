@@ -180,7 +180,7 @@ async function main() {
     })
     next.addEventListener("click", () => {
         console.log("next clicked")
-        let index = songs.indexOf(curentSong.src.split("/").slice(-1)[0])
+        let index = songs.indexOf(curentSong.src.split("/").slice(-2)[0])
         if ((index + 1) < songs.length) {
             playMusic(songs[index + 1])
         }
