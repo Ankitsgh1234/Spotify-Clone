@@ -82,6 +82,7 @@ async function displayAlbums() {
             let folder = e.href.split("/").slice(-1)[0]
             // Get the metadata of the folder
             let a = await fetch(`/songs/${folder}/info.json`)
+            // fetch("https://https://astonishing-moxie-c91499.netlify.app/songs/info.json")
             if (!a.ok) {
                 console.error(`info.json not found for folder: ${folder}`);
                 continue; // Skip to the next folder
