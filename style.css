@@ -287,6 +287,9 @@ body {
 .volume{
     cursor: pointer;
 }
+ .range{
+    cursor: pointer;
+}
 /* .volume:hover::after{
     content: "gfdgd ";
     
